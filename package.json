@@ -1,0 +1,34 @@
+{
+  "name": "my-codespace",
+  "version": "0.0.0",
+  "description": "My Codespace test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon .",
+    "commit": "npx cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnrendra/my-codespace.git"
+  },
+  "author": "muhammadnurrendra@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnrendra/my-codespace/issues"
+  },
+  "homepage": "https://github.com/mnrendra/my-codespace#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "nodemon": "^2.0.21"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
